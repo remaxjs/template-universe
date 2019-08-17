@@ -1,13 +1,14 @@
-import * as AlipayRemax from 'remax/alipay';
-import * as WechatRemax from 'remax/wechat';
+import * as React from 'react';
+import { Text as AlipayText } from 'remax/alipay';
+import { Text as WechatText } from 'remax/wechat';
 import { Platform } from 'remax';
 
 export default function Text(props) {
   switch (Platform.current) {
     case 'alipay':
-      return <AlipayRemax.Text {...props} />;
+      return <AlipayText {...props} />;
     case 'wechat':
     default:
-      return <WechatRemax.Text {...props} />;
+      return <WechatText {...props} />;
   }
 }
