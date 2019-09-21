@@ -1,4 +1,4 @@
-# Remax Wechat Template
+# Remax Universe Template
 
 使用 Remax 开发跨多端小程序的模板。
 
