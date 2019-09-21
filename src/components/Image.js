@@ -12,4 +12,3 @@ export default function Image(props) {
       return <WechatImage {...props} />;
   }
 }
-t;
